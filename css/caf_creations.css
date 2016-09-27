@@ -1,0 +1,44 @@
+.creation_category {
+	color: #404040;
+	font-size: 20px;
+	margin: 0px;
+	padding-left: 30px;
+	font-weight: bold;
+}
+
+.creation_picture img{
+	width: 150px;
+	height: 150px;
+	float: right;
+
+}
+
+.ratings img {
+	width: 25px;
+	height: 25px;
+
+}
+
+.creation_title {
+	display: inline-flex;
+}
+
+.container {
+	padding: 20px 20px 0px;
+
+
+}
+
+.secondColor {
+	background-color: #DFF5FF;
+}
+
+.creation_content tr th {
+    font-size: 28px;
+    color: #F8B800;
+
+}
+
+
+
+

@@ -68,7 +68,7 @@ if(!class_exists('Oleville_Caf_Creations_Shortcode'))
 		{
 
 			//registering external scripts 
-			wp_enqueue_style( 'member-colorbox', WP_PLUGIN_URL.'/caf-creations/css/caf_creations.css');
+			wp_enqueue_style( 'caf-creations-style', WP_PLUGIN_URL.'/caf-creations/css/caf_creations.css');
 
 			// Add the shortcode hook
 			if (!shortcode_exists('caf-creations')) {

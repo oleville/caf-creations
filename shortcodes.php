@@ -141,8 +141,8 @@ if(!class_exists('Oleville_Caf_Creations_Shortcode'))
 			$args = array(				
 				'post_type' => 'caf_creations',
 				'posts_per_page' => -1,
-				'orderby' => 'menu_order',
-				'order' => 'ASC', 
+				'orderby' => 'date',
+				'order' => 'DESC', 
 			); 
 
 			$query = new WP_Query($args);
